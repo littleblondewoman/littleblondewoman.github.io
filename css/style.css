@@ -11,10 +11,19 @@
 	padding-right: 50px;
 	background-color: rgba(0,0,0,0.3);
 	padding-bottom: 50px;
+
 	
 
 	
 }
+
+.fade{
+	
+    animation: opacity 2s ease-in;
+}
+
+
+
 
 .intro{
 	text-align: left;
