@@ -1,6 +1,7 @@
 #bg-img-index{
 	background-image: url('../img/background_3.jpg') ;
 	background-color: black;
+	background-attachment:fixed
 
 }
 
@@ -15,9 +16,9 @@
 	margin: 30px auto;
 	padding: 50px;
 	display: block;
-	border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
+	border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
 
 
 }
@@ -73,7 +74,7 @@ h1{
 	font-weight: 500;
 	font-family: 'Lato', sans-serif;
 	font-size: 55px;
-	color: #E6CA19;
+	color: #F4F5EB;
 	margin-left: 31px;
 	padding-top: 50px;
 	
@@ -203,22 +204,25 @@ li {
 
 
 .answer {
-	text-align: left;
+	
 }
 
 .answer p {
-	color: #5555;
+	color: #555;
 	font-family: Tisa OT;
 	font-size: 17px;
+
 
 }
 
 .signal-questions{
-	color: #30a55e;
+	color: #6F7FD9;
 	padding-bottom: 20px;
 	font-size: 27px;
 	padding-top: 15px;
-	text-align: left; 
+	text-align: left;
+	margin: 0 0; 
+
 
 
 }
@@ -227,7 +231,7 @@ li {
 	font-weight: 500;
 	font-family: 'Lato', sans-serif;
 	font-size: 80px;
-	color: #e3900d;
+	color: #FA922A;
 	padding-left: 105px;
 }
 
@@ -235,28 +239,17 @@ li {
 	font-weight: 300;
 	font-family: 'Lato', sans-serif;
 	font-size: 30px;
-	color: #e3900d;
+	color: #FA922A;
 	text-align: center;
-	padding-bottom: 15px;
+	padding-bottom: 50px;
 
 
 }
 
-.Conclusion2 {
-	font-family: Tisa OT;
-	font-size: 17px;
-	line-height: 28px;
-	font-weight: normal;
-}
 
-.h4 {
 
-	color: #e3900d;
-	text-align: center;
-	font-size: 30px;
-}
 
-.Table {
+.table {
 
 	border: none;
 	width: 100%;
@@ -279,8 +272,9 @@ li {
 
 .fourth{
 	padding-left: 30px;
-
 }
+
+
 
 .imageone{
 	display: block;
@@ -290,9 +284,49 @@ li {
 	max-width: 250px;
 	width: 350px;
 	height: 250px;
+	padding-bottom: 30px;
 
 
 }
+
+.imagetwo{
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conclusion2 {
+
+	font-family: Tisa OT;
+	font-size: 17px;
+	line-height: 28px;
+	font-weight: normal;
+	color: #555;
+
+}
+
+.conclusion3 {
+
+	color: #FA922A;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.contactdetails { 
+
+	color: #FA922A;
+	text-align: center;
+	font-size: 27px;
+	font-weight: ;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
 
 
 
