@@ -1,7 +1,10 @@
 #bg-img-index{
-	background-image: url('../img/background_3.jpg') ;
 	background-color: black;
-	background-attachment:fixed
+	background: url('../img/background_3.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
@@ -34,6 +37,7 @@
 	padding-right: 50px;
 	background-color: rgba(0,0,0,0.3);
 	padding-bottom: 50px;
+
 }
 
 
@@ -294,6 +298,14 @@ li {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+ 
+.imagethree{
+
+	display: block;margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .conclusion2 {
