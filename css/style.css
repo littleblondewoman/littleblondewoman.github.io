@@ -303,9 +303,7 @@ li {
  
 .imagethree{
 
-	display: block;margin-left: auto;
-    margin-right: auto;
-    margin-left: auto;
+	padding-left: 250px;
 }
 
 .conclusion2 {
@@ -330,11 +328,12 @@ li {
 
 .contactdetails { 
 
-	color: #FA922A;
+	color: #555;
 	text-align: center;
-	font-size: 27px;
+	font-size: 24px;
 	font-weight: ;
 	font-family: 'Lato', sans-serif;
+	padding-top: 50px;
 }
 
 
