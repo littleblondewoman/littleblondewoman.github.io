@@ -74,11 +74,10 @@
 
 
 h1{
-
 	font-weight: 500;
 	font-family: 'Lato', sans-serif;
 	font-size: 55px;
-	color: #F4F5EB;
+	color: #E6CA19;
 	margin-left: 31px;
 	padding-top: 50px;
 	
@@ -88,7 +87,7 @@ h2 {
 
 	font-family: Tisa OT;
 	font-size: 35px;
-	color: #F4F5EB;
+	color: #E6CA19;
 	font-style: italic;
 	margin: 11px 60px;
 	padding-top: 00px;
@@ -131,6 +130,7 @@ p {
 
 .social-links li {
 	margin-bottom: 20px;
+	list-style: none;
 
 }
 
@@ -200,16 +200,6 @@ p {
 
 }
 
-li {
-
-	list-style: none;
-}
-
-
-
-.answer {
-	
-}
 
 .answer p {
 	color: #555;
@@ -218,6 +208,28 @@ li {
 
 
 }
+
+ul .bullet-answers {
+
+	list-style-type: circle;
+}
+
+.bullet-answers li{
+
+	
+	font-family: Tisa OT;
+	font-size: 17px;
+	line-height: 33px;
+	font-weight: normal;
+	color: #555;
+	-webkit-font-smoothing: antialiased;
+	margin-bottom: 30px;
+
+	
+
+}
+
+
 
 .signal-questions{
 	color: #6F7FD9;
